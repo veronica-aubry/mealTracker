@@ -12,7 +12,7 @@ import { EditMealDetails } from './edit-meal-details.component';
       <h1>Meal Tracker</h1>
     </div>
     <div class='container'>
-      <meal-list [mealList] = "meals"
+      <meal-list class="list row" [mealList] = "meals"
       (onMealSelect)="mealWasSelected($event)">
       </meal-list>
     </div>
@@ -29,5 +29,6 @@ export class AppComponent {
     ];
   }
   mealWasSelected(clickedMeal: Meal): void {
+
   }
 }

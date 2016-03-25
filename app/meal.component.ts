@@ -5,10 +5,9 @@ import { Meal } from './meal.model';
   selector: 'meal-display',
   inputs: ['meal'],
   template: `
-    <div>
-      <h4 class="mealName">{{ meal.name }}</h4>
-      <h6 class="mealDetails"> {{ meal.details }}</h6>
-      <h5 class="mealCalories">Calories: {{ meal.calories }}</h5>
+
+    <div class="mealDisplay">
+    <p>{{ meal.name }}</p>
     </div>
 
   `
@@ -16,4 +15,5 @@ import { Meal } from './meal.model';
 
 export class MealComponent {
   public meal: Meal;
+  public
 }

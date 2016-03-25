@@ -1,0 +1,21 @@
+{
+  "name": "mealTracker",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Veronica Alley <veronica.aubry.alley@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  "bootstrap": "^3.3.6"
+  }
+}

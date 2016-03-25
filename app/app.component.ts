@@ -23,9 +23,10 @@ export class AppComponent {
   public meals: Meal[];
   constructor(){
     this.meals = [
-      new Meal("Breakfast Burrito", "It was delicious.", 500, 0),
-      new Meal("Lunch Burrito", "It was delicious.", 600, 1),
-      new Meal("Dinner Burrito", "It was delicious.", 700, 2)
+      new Meal("Breakfast Burrito", "It was so freaking bomb.", 500, 0),
+      new Meal("Lunch Burrito", "It was delicious, but I felt sick afterwards?", 600, 1),
+      new Meal("Dinner Burrito", "Holy cow, dude. Great burrito.", 700, 2),
+      new Meal("Diet Burrito", "Gotta watch my figure, man. This burrito was weak, though.", 200, 3)
     ];
   }
   mealWasSelected(clickedMeal: Meal): void {

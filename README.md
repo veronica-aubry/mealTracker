@@ -6,7 +6,7 @@
 
 ## Description
 
-_Web app that allows user to enter meals and calorie information, edit meals, and filter meals according to calories._
+_Angular2 web app using TypeScript that allows users to enter meals and calorie information, edit meals, and implements a pipe to filter meals according to calories. Also implements separate onclick detail display component._
 
 ## Setup/Installation Requirements
 
